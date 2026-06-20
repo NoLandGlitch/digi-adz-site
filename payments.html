@@ -32,8 +32,8 @@
       <div class="shell">
         <div class="breadcrumbs">Home / Payments</div>
         <span class="eyebrow">Approval and payment flow</span>
-        <h1>Keep the checkout details <span>separate</span>.</h1>
-        <p>The homepage does not need to carry payment logistics. This page holds the deposit and retainer information until you are ready to plug in real Stripe, PayPal, Square, or invoice links.</p>
+        <h1>Take payment <span>cleanly</span>.</h1>
+        <p>The homepage does not need to carry payment logistics. This page holds the deposit and retainer information and is ready to be wired to a live processor.</p>
       </div>
     </section>
 
@@ -42,7 +42,7 @@
         <article class="payment-card">
           <span class="page-kicker">Accepted payment flow</span>
           <h3>Make it easy for clients to say yes and pay.</h3>
-          <p>Use this page to explain how Digi-Adz handles project deposits and ongoing retainers. Right now it uses email-based requests as the safe default until live processor links are added.</p>
+          <p>Use this page to explain how Digi-Adz handles project deposits and ongoing retainers. The buttons below are set up for a live checkout or invoice link once you drop in your processor URL.</p>
           <ul class="simple-list">
             <li>Card payments</li>
             <li>ACH or bank transfer</li>
@@ -50,8 +50,8 @@
             <li>Monthly retainers</li>
           </ul>
           <div class="inline-actions" style="margin-top:18px;">
-            <a class="button-link primary" href="mailto:hello@digi-adz.com?subject=Digi-Adz%20Project%20Deposit">Pay Project Deposit</a>
-            <a class="button-link secondary" href="mailto:hello@digi-adz.com?subject=Digi-Adz%20Monthly%20Support%20Plan">Start Monthly Plan</a>
+            <a class="button-link primary" href="#live-checkout">Pay Project Deposit</a>
+            <a class="button-link secondary" href="#live-checkout">Start Monthly Plan</a>
           </div>
         </article>
 
@@ -69,8 +69,29 @@
 
         <article class="payment-card">
           <strong>Easy upgrade path</strong>
-          <h3>Swap in live processors later.</h3>
-          <p>When you are ready, replace the email buttons with your real Stripe, PayPal, Square, or invoice links without cluttering the homepage.</p>
+          <h3>Swap in live processors now.</h3>
+          <p>Drop your Stripe Payment Link, PayPal checkout URL, Square invoice link, or hosted payment page into the button targets and the section becomes live immediately.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="live-checkout">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <h2>Live checkout hook.</h2>
+            <p>Replace the link below with your actual payment URL so clients can pay without emails or back-and-forth.</p>
+          </div>
+        </div>
+
+        <article class="page-card">
+          <span class="page-kicker">Processor link</span>
+          <h3>Connect a real payment page</h3>
+          <p>Right now this is the clean handoff point. Once you give me a Stripe/PayPal/Square link, I can wire the buttons to a working checkout in one pass.</p>
+          <div class="inline-actions" style="margin-top:18px;">
+            <a class="button-link primary" href="mailto:hello@digi-adz.com?subject=Payment%20Link%20Request">Send me the live payment link</a>
+            <a class="button-link secondary" href="mailto:hello@digi-adz.com?subject=Project%20Deposit%20Invoice">Request invoice by email</a>
+          </div>
         </article>
       </div>
     </section>
